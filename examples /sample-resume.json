@@ -1,0 +1,38 @@
+{
+  "basics": {
+    "name": "Aarav Mehta",
+    "headline": "Backend Engineer | Payments and Reliability",
+    "location": "Pune, India",
+    "email": "aarav.mehta@example.com",
+    "phone": "+91 90000 00000",
+    "links": [
+      {"label": "linkedin.com/in/aaravmehta", "url": "linkedin.com/in/aaravmehta"},
+      {"label": "github.com/aaravmehta", "url": "github.com/aaravmehta"}
+    ]
+  },
+  "summary": "Backend engineer with two years of experience building payment APIs in Go and Postgres. Cut checkout failures by 38% at a 40-person fintech and enjoy making slow systems boring and fast.",
+  "sections": [
+    {"type": "experience", "title": "Experience", "items": [
+      {"role": "Backend Engineer", "org": "Northwind Pay", "dates": "Jul 2024 \u2013 Present", "location": "Pune, India",
+       "bullets": [
+         "Rebuilt the retry queue for card payments in Go, cutting failed checkouts by **38%** across 1.2M monthly transactions",
+         "Moved 14 services from cron jobs to an event-driven pipeline, reducing settlement delays from 6 hours to under 20 minutes",
+         "Wrote the on-call runbook and alert rules that dropped weekly pages from 25 to 7"]},
+      {"role": "Software Engineering Intern", "org": "Lumen Labs", "dates": "Jan 2024 \u2013 Jun 2024", "location": "Remote",
+       "bullets": [
+         "Built an internal invoice-matching tool in Python used by a 6-person finance team every week",
+         "Added Postgres indexes that took the slowest report from 41 seconds to 3"]}
+    ]},
+    {"type": "projects", "title": "Projects", "items": [
+      {"name": "ledgerlite", "tagline": "Double-entry ledger library", "link": "github.com/aaravmehta/ledgerlite", "dates": "2025",
+       "bullets": ["Open-source Go library with property-based tests; 410 GitHub stars and used by 3 startups"]}
+    ]},
+    {"type": "education", "title": "Education", "items": [
+      {"org": "College of Engineering Pune", "degree": "B.Tech in Computer Engineering", "dates": "2020 \u2013 2024", "location": "Pune, India"}
+    ]},
+    {"type": "skills", "title": "Skills", "groups": [
+      {"label": "Languages", "items": "Go, Python, SQL, TypeScript"},
+      {"label": "Systems", "items": "Postgres, Kafka, Redis, Docker, AWS"}
+    ]}
+  ]
+}
