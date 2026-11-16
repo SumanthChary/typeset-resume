@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+# never commit real resumes or personal data
+*.pdf
+!docs/sample-output.pdf
+resume.json
+resume.before.json
+!typeset-resume/examples/sample-resume.json
